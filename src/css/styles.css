@@ -22,3 +22,33 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.wrap {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.button {
+  width: 90px;
+  height: 40px;
+  background-color: lightskyblue;
+  border: none;
+}
+
+.input-for-gallery {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.input-for-gallery:active {
+  border: 1px solid blue;
+}
+
+.gallery-form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
