@@ -10,5 +10,5 @@ form.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
-  const inputValue = input.;
+  const inputValue = input.searchImagesByQuery();
 }
