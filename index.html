@@ -7,26 +7,25 @@
     <title>HW 11</title>
     
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-86291ea8.js">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-e5212ee8.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-13bcfe34.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-8c59ed88.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-cbd67a91.css">
   </head>
   <body>
     <section>
-      <div class="wrap">
-        <form class="gallery-form">
-          <label for="query-for-search">
+      <div class="container">
+        <form class="form-gallery">
+          <div class="form-wrap-gallery">
             <input
               type="text"
-              class="input-for-gallery"
-              name="query-for-search"
-              id="query-for-search"
-              placeholder="Search images..."
+              class="form-gallery-input"
+              name="query"
+              placeholder="Search-images..."
             />
-          </label>
-          <button type="submit" class="button">search</button>
+          </div>
+          <button type="submit" class="btn-gallery">Search</button>
         </form>
-        <span class="hidden loader"></span>
+        <span class="visually-hidden loader"></span>
         <ul class="gallery-list"></ul>
       </div>
     </section>
