@@ -21,7 +21,7 @@ export function renderImagesCards(images, galleryList) {
     .join('');
   galleryList.insertAdjacentHTML('beforeend', markup);
 
-  let gallerySL = new SimpleLightbox('.gallery a', {
+  let gallerySL = new SimpleLightbox('.gallery-list a', {
     captionsData: 'alt',
     captionDelay: 250,
   });
