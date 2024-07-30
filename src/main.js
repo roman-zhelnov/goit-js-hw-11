@@ -42,6 +42,6 @@ function handleSubmit(event) {
     })
     .finally(() => {
       inputEl.value = '';
-      form.reset();
+      event.target.reset();
     });
 }
