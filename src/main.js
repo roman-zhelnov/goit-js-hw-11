@@ -38,6 +38,14 @@ function handleSubmit(event) {
       }
     })
     .catch(error => {
+      loaderEl.classList.add('visually-hidden');
+      iziToast.error({
+        maxWidth: '370px',
+        position: 'topRight',
+        messageColor: 'white',
+        backgroundColor: 'red',
+        message: ' Sorry, there was an error connecting to the server!',
+      });
       console.error(error);
     })
     .finally(() => {
